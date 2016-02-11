@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Meet Me At The Library</title>
+
+    <!--css link-->
+    <link type="text/css" href="ex5.css" rel="stylesheet">
+
+    <!--jQuery ui link-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!--jQuery link-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!--jQuery ui-->
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+        $(function () {
+            $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+            $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+        });
+    </script>
+
+    <!--custom javascript link-->
+    <script type="text/javascript" src="ex5.js"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1> STUDENT OFF-CAMPUS HOUSING</h1>
+    </header>
+
+
+    <section class="row container">
+        <h2>main info</h2>
+        <section id="tabs" class="column">
+            <h2>tabs</h2>
+            <ol>
+                <li><a class="north" href="#tabs-1">NORTH</a></li>
+                <li><a class="west" href="#tabs-2">WEST</a></li>
+                <li><a class="central" href="#tabs-3">CENTRAL</a></li>
+                <li><a class="east" href="#tabs-4">EAST</a></li>
+                <li><a class="south" href="#tabs-5">SOUTH</a></li>
+            </ol>
+
+            <article id="tabs-1">
+                <h2>north</h2>
+                <ol>
+                    <li class="four-bd">4 bedrooms</li>
+                    <li class="north three-bd">3 bedrooms</li>
+                    <li class="north two-bd">2 bedrooms</li>
+                    <li class="one-bd">1 bedroom</li>
+                </ol>
+            </article>
+
+            <article id="tabs-2">
+                <h2>west</h2>
+                <ol>
+                    <li class="three-bd">3 bedrooms</li>
+                    <li class="two-bd">2 bedrooms</li>
+                </ol>
+            </article>
+
+            <article id="tabs-3">
+                <h2>central</h2>
+                <ol>
+                    <li class="four-bd">4 bedrooms</li>
+                    <li class="three-bd">3 bedrooms</li>
+                    <li class="two-bd">2 bedrooms</li>
+                    <li class="one-bd">1 bedroom</li>
+                </ol>
+            </article>
+
+            <article id="tabs-4">
+                <h2>east</h2>
+                <ol>
+                    <li class="three-bd">3 bedrooms</li>
+                    <li class="two-bd">2 bedrooms</li>
+                    <li class="one-bd">1 bedroom</li>
+                </ol>
+            </article>
+
+            <article id="tabs-5">
+                <h2>south</h2>
+                <ol>
+                    <li class="four-bd">4 bedrooms</li>
+                    <li class="three-bd">3 bedrooms</li>
+                    <li class="two-bd">2 bedrooms</li>
+                </ol>
+            </article>
+
+        </section>
+
+        <img alt="home" class="column" src="home.png" width="200" height="280">
+
+        <ol class="apartments column">
+            <li class="east">Alhambra Apartments</li>
+            <li class="south">Allegre Apartments</li>
+            <li class="north">Almondwood Apartments</li>
+            <li class="central">Anderson Place Apartments</li>
+            <li class="west">Aspen Village Apartments</li>
+            <li class="central">The Colleges at La Rue Apartments</li>
+            <li class="east">Cranbrook Apartments</li>
+            <li class="south">DaVinci Court Apartments</li>
+            <li class="east">Eighth Street Apartments</li>
+            <li class="east">Greystone Apartments</li>
+            <li class="east">J Street Apartments</li>
+            <li class="west">Lakeshore Apartments</li>
+            <li class="west">Le Tournesol Apartments</li>
+            <li class="south">Lexington Apartments</li>
+            <li class="north">Pepperwood Apartments</li>
+            <li class="central">Pinon Apartments</li>
+            <li class="west">Portage Bay Apartments</li>
+            <li class="north">Sequoia Apartments</li>
+            <li class="south">Sharps &amp; Flats Apartments</li>
+            <li class="south">Sorrento Apartments</li>
+            <li class="west">Sundance Apartments</li>
+            <li class="central">Sycamore Lane Apartments</li>
+            <li class="south">Tanglewood Apartments</li>
+            <li class="north">Temescal Apartments</li>
+            <li class="west">The Trees Apartments</li>
+            <li class="central">University Court Apartments</li>
+            <li class="east">University Village</li>
+            <li class="central">Wake Forest Apartments</li>
+
+
+            <li class=""></li>
+        </ol>
+
+    </section>
+
+
+
+    <footer>
+        <a class="button" href="https://validator.w3.org/check?uri=referer"> H T M L </a>
+        <a class="button" href="https://jigsaw.w3.org/css-validator/check/referer">C S S</a>
+    </footer>
+</body>
+
+</html>

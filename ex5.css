@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: DinCondensed;
+    src: url(DINNeuzeitGroteskStd-BdCond.otf);
+}
+
+@font-face {
+    font-family: HelvLight;
+    src: url(HelveticaNeueLTStd-UltLtCn.otf);
+}
+
+
+/*---------------html----------------------*/
+
+body {
+    text-align: center;
+    font-family: 'DinCondensed';
+}
+
+footer > a:link {
+    text-decoration: none;
+    color: #00778f;
+}
+
+footer > a:hover {
+    color: #00778f;
+    text-decoration: underline;
+}
+
+footer > a:visited {
+    color: #00778f;
+}
+
+
+/*---------------jQuery ui----------------*/
+
+.ui-tabs-vertical {
+    width: 300px;
+}
+
+.ui-tabs-vertical .ui-tabs-nav {
+    padding: .2em .1em .2em .2em;
+    float: left;
+    width: 90px;
+    font-family: 'DinCondensed';
+}
+
+.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    margin: 0 -1px .2em 0;
+    outline: 0 !important;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    outline: 0 !important;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    padding-bottom: 0;
+    padding-right: .1em;
+}
+
+.ui-tabs-vertical .ui-tabs-panel {
+    padding: 5px;
+    float: right;
+    width: 150px;
+    font-family: 'HelvLight';
+}
+
+
+/*-------------------tags------------------*/
+
+h1 {
+    margin: 25px;
+}
+
+ol {
+    text-align: left;
+    list-style: none;
+}
+
+h2 {
+    visibility: hidden;
+}
+
+
+/*-------------------ids-------------------*/
+
+
+/*-----------------classes-----------------*/
+
+.button {
+    background-color: white;
+    padding: 15px;
+    display: inline-block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 10px auto 10px auto;
+}
+
+.column {
+    float: left;
+    margin-right: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
